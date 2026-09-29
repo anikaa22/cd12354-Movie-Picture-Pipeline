@@ -469,3 +469,27 @@ kustomize build | kubectl apply -f -
 ## License
 
 [License](LICENSE.md)
+
+## Submission Screenshots
+
+**Frontend (movie list loaded via LoadBalancer)**
+![Frontend](screenshots/frontend-app.png)
+
+**Backend API (`/movies`)**
+![Backend API](screenshots/backend-api.png)
+
+**CI/CD workflow runs**
+![Frontend CI](screenshots/frontend-ci-run.png)
+![Backend CI](screenshots/backend-ci-run.png)
+![Frontend CD](screenshots/frontend-cd-run.png)
+![Backend CD](screenshots/backend-cd-run.png)
+
+**Images in ECR**
+![ECR frontend](screenshots/ecr-frontend.png)
+![ECR backend](screenshots/ecr-backend.png)
+
+**REACT_APP_MOVIE_API_URL build-arg in frontend-cd.yaml**
+![Build arg](screenshots/build-arg.png)
+
+**Kubernetes status**
+![kubectl](screenshots/kubectl-status.png)
